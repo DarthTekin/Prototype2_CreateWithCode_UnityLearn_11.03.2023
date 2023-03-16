@@ -516,8 +516,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 25, z: 7.5}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.18080398, y: 19.684593, z: 5.1495705}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -591,6 +591,9 @@ MonoBehaviour:
   - {fileID: 7930066271331323880, guid: 43b9cffc161b58c4b8f12f907acb0edf, type: 3}
   - {fileID: 839750341830829583, guid: 4b03abe0d17e90f4eb80a472c31bb57e, type: 3}
   - {fileID: 5300526199641109009, guid: c678fad53a339cd46a1d498c804abaa5, type: 3}
+  sideSpawnMinz: 5
+  sideSpawnMaxz: 20
+  sideSpawnx: 30
 --- !u!4 &1182044161
 Transform:
   m_ObjectHideFlags: 0
@@ -707,6 +710,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalInput: 0
+  verticalInput: 0
   speed: 10
   xRange: 10
+  zRange: 5
   projectilePrefab: {fileID: 6500315097887507979, guid: 016bb6cad74d2fb4ca3c5e9c9decdccb, type: 3}
