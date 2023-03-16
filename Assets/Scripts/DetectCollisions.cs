@@ -23,7 +23,10 @@ public class DetectCollisions : MonoBehaviour
             Debug.Log("Game Over!");
             Destroy(gameObject);
         }
-        Destroy(gameObject);
-        Destroy(other.gameObject);
+        else
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+        }        
     }
 }
