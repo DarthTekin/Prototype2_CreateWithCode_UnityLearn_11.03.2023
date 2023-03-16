@@ -31,4 +31,10 @@ public class GameManager : MonoBehaviour
 
         Debug.Log("Lives = " + lives);
     }
+
+    public void AddScore(int value)
+    {
+        score += value;
+        Debug.Log("Score = " + score);
+    }
 }
