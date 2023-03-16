@@ -592,8 +592,8 @@ MonoBehaviour:
   - {fileID: 839750341830829583, guid: 4b03abe0d17e90f4eb80a472c31bb57e, type: 3}
   - {fileID: 5300526199641109009, guid: c678fad53a339cd46a1d498c804abaa5, type: 3}
   sideSpawnMinz: 5
-  sideSpawnMaxz: 20
-  sideSpawnx: 30
+  sideSpawnMaxz: 5
+  sideSpawnx: 5
 --- !u!4 &1182044161
 Transform:
   m_ObjectHideFlags: 0
