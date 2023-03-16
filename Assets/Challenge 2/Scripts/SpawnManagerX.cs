@@ -12,7 +12,7 @@ public class SpawnManagerX : MonoBehaviour
 
     private float startDelay = 1.0f;
 
-        // Start is called before the first frame update
+    // Start is called before the first frame update
     void Start()
     {
         int spawnInterval = Random.Range(3, 5);
