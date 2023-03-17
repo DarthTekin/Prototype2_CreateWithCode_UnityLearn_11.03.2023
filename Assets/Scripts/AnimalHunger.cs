@@ -16,7 +16,7 @@ public class AnimalHunger : MonoBehaviour
     {
         hungerSlider.maxValue = amountToBeFed;
         hungerSlider.value = 0;
-        hungerSlider.fillRect.gameObject.SetActive(false);
+        hungerSlider.fillRect.gameObject.SetActive(true);
 
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
